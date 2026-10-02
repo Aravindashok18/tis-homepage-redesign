@@ -3,7 +3,7 @@
 A modern, animated redesign of the Tulas International School homepage focusing on high conversion, fluid animations, and mobile responsiveness.
 
 ## 🚀 Live Demo
-- **Live URL:** _add your Vercel / Netlify link here after deploying_
+- **Live URL:** https://aravindashok18.github.io/tis-homepage-redesign/
 - **Repository:** https://github.com/Aravindashok18/tis-homepage-redesign
 
 ## 🛠️ Tech Stack
@@ -11,7 +11,7 @@ A modern, animated redesign of the Tulas International School homepage focusing 
 - **Styling:** Tailwind CSS v4 (design tokens as CSS variables)
 - **Animations:** Framer Motion
 - **Icons:** Lucide React
-- **Deployment:** Vercel / Netlify (static build, output `dist/`)
+- **Deployment:** GitHub Pages via GitHub Actions (also Vercel-ready through `vercel.json`)
 
 ## ✨ Standout Features Implemented
 1. **Custom Cursor** (`animation/CustomCursor`): a spring-following ring plus dot driven by motion values (no React re-renders on mouse move). The ring scales up over links/buttons, hides when the mouse leaves the window, and is not rendered on touch devices (`pointer: fine` check).
